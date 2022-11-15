@@ -18,11 +18,11 @@ const calculate = (num1, num2, operator) => {
 };
 
 const getQA = () => {
-  const num1 = getRandom(1, 25);
-  const num2 = getRandom(1, 25);
+  const randomNumber1 = getRandom(1, 25);
+  const randomNumber2 = getRandom(1, 25);
   const operator = operators[getRandom(0, 2)];
-  const question = `${num1} ${operator} ${num2}`;
-  const answer = String(calculate(num1, num2, operator));
+  const question = `${randomNumber1} ${operator} ${randomNumber2}`;
+  const answer = String(calculate(randomNumber1, randomNumber2, operator));
   return [question, answer];
 };
 
