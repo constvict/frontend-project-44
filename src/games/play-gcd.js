@@ -1,7 +1,7 @@
-import getRandom from '../getRandom.js';
+import getRandom from '../utils.js';
 import play from '../index.js';
 
-const gameTask = 'Find the greatest common divisor of given numbers.';
+const description = 'Find the greatest common divisor of given numbers.';
 
 const getGcd = (value1, value2) => {
   let a = value1;
@@ -25,7 +25,7 @@ const getQA = () => {
 };
 
 const playGcd = () => {
-  play(gameTask, getQA);
+  play(description, getQA);
 };
 
 export default playGcd;

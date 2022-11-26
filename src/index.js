@@ -2,12 +2,13 @@
 
 import readlineSync from 'readline-sync';
 
-const play = (gameTask, nextRound) => {
+const maxRounds = 3;
+const play = (description, nextRound) => {
   console.log('Welcome to the Brain Games!');
   const userName = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${userName}!`);
-  console.log(gameTask);
-  const maxRounds = 3;
+  console.log(description);
+
   for (let i = 1; i <= maxRounds; i += 1) {
     const [question, correctAnswer] = nextRound();
     console.log(`Question: ${question}`);

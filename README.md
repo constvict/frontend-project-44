@@ -24,22 +24,22 @@ Hexlet project aimed at creating simple interactive games with united logic. Eac
 
 ## Usage
 Available games:
-1. Find if number is even.
+1. Find if number is even
 
     ```sh
     brain-even
     ```
-2. Сalculate mathematical expression.
+2. Сalculate mathematical expression
 
     ```sh
     brain-calc
     ```
-3. Find the greatest common divisor.
+3. Find the greatest common divisor
 
     ```sh
     brain-gcd
     ```
-4. Find missing number in the progression.
+4. Find missing number in the progression
 
     ```sh
     brain-progression
@@ -51,13 +51,12 @@ Available games:
     ```
 
 ### brain-even
-[![asciicast](https://asciinema.org/a/nl70bs7KBtkJe00U9YTfUKN4n.svg)](https://asciinema.org/a/nl70bs7KBtkJe00U9YTfUKN4n)
-
+[![asciicast](https://asciinema.org/a/oTaj5rsevikH0h3yH1lEwuP6U.svg)](https://asciinema.org/a/oTaj5rsevikH0h3yH1lEwuP6U)
 ### brain-calc
-[![asciicast](https://asciinema.org/a/UyofmP3VNWazuAxuyshDBjX0e.svg)](https://asciinema.org/a/UyofmP3VNWazuAxuyshDBjX0e)
+[![asciicast](https://asciinema.org/a/zNhPNMLaTpShqxrNgPufhX0Ra.svg)](https://asciinema.org/a/zNhPNMLaTpShqxrNgPufhX0Ra)
 ### brain-gcd
-[![asciicast](https://asciinema.org/a/8yDw5hyqGOavLVJXR9prR3QUw.svg)](https://asciinema.org/a/8yDw5hyqGOavLVJXR9prR3QUw)
+[![asciicast](https://asciinema.org/a/UmppNm54RbqtX9De7q5pnXv9z.svg)](https://asciinema.org/a/UmppNm54RbqtX9De7q5pnXv9z)
 ### brain-progression
-[![asciicast](https://asciinema.org/a/X3vbhFy8GyiOA2EuZdfJYnAib.svg)](https://asciinema.org/a/X3vbhFy8GyiOA2EuZdfJYnAib)
+[![asciicast](https://asciinema.org/a/nSPLjYFyOEWFQPIaTBpMEHHhn.svg)](https://asciinema.org/a/nSPLjYFyOEWFQPIaTBpMEHHhn)
 ### brain-prime
-[![asciicast](https://asciinema.org/a/sLnCm1vEJ7qkkiXpKBKedxLg6.svg)](https://asciinema.org/a/sLnCm1vEJ7qkkiXpKBKedxLg6)
+[![asciicast](https://asciinema.org/a/0dj4RFtPFvMvBNi6KLHJMt1rs.svg)](https://asciinema.org/a/0dj4RFtPFvMvBNi6KLHJMt1rs)

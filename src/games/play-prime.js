@@ -1,7 +1,7 @@
-import getRandom from '../getRandom.js';
+import getRandom from '../utils.js';
 import play from '../index.js';
 
-const gameTask = 'Answer "yes" if given number is prime. Otherwise answer "no".';
+const description = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
 const isPrime = (number) => {
   const sqrtNumber = Math.sqrt(number);
@@ -19,7 +19,7 @@ const getQA = () => {
 };
 
 const playPrime = () => {
-  play(gameTask, getQA);
+  play(description, getQA);
 };
 
 export default playPrime;

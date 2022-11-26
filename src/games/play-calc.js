@@ -1,7 +1,7 @@
-import getRandom from '../getRandom.js';
+import getRandom from '../utils.js';
 import play from '../index.js';
 
-const gameTask = 'What is the result of the expression?';
+const description = 'What is the result of the expression?';
 const operators = ['+', '-', '*'];
 
 const calculate = (num1, num2, operator) => {
@@ -27,7 +27,7 @@ const getQA = () => {
 };
 
 const playCalc = () => {
-  play(gameTask, getQA);
+  play(description, getQA);
 };
 
 export default playCalc;
