@@ -17,7 +17,7 @@ const calculate = (num1, num2, operator) => {
   }
 };
 
-const getQA = () => {
+const getAnswerAndQuestion = () => {
   const randomNumber1 = getRandom(1, 25);
   const randomNumber2 = getRandom(1, 25);
   const operator = operators[getRandom(0, 2)];
@@ -27,7 +27,7 @@ const getQA = () => {
 };
 
 const playCalc = () => {
-  play(description, getQA);
+  play(description, getAnswerAndQuestion);
 };
 
 export default playCalc;

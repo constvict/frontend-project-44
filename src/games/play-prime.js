@@ -12,14 +12,14 @@ const isPrime = (number) => {
   return number > 1;
 };
 
-const getQA = () => {
+const getAnswerAndQuestion = () => {
   const question = getRandom(1, 50);
   const answer = isPrime(question) ? 'yes' : 'no';
   return [question, answer];
 };
 
 const playPrime = () => {
-  play(description, getQA);
+  play(description, getAnswerAndQuestion);
 };
 
 export default playPrime;

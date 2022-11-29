@@ -16,7 +16,7 @@ const getGcd = (value1, value2) => {
   return a + b;
 };
 
-const getQA = () => {
+const getAnswerAndQuestion = () => {
   const randomNumber1 = getRandom(1, 100);
   const randomNumber2 = getRandom(1, 100);
   const question = `${randomNumber1} ${randomNumber2}`;
@@ -25,7 +25,7 @@ const getQA = () => {
 };
 
 const playGcd = () => {
-  play(description, getQA);
+  play(description, getAnswerAndQuestion);
 };
 
 export default playGcd;
